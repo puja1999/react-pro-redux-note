@@ -1,76 +1,70 @@
-![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
+# Getting Started with Create React App
 
-# ProGrad Lab | REDUX  - PRO-REDUX-NOTE
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Learning Goals
+In the project directory, you can run:
 
-In this exercise, the goal is to learn state management using redux in react:
+### `npm start`
 
-- Redux,
-- Store,
-- Actions,
-- Reducer
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Getting started
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-1. Fork this repo
-2. Clone this repo
+### `npm test`
 
-Whenever you create a first significant change, you should make your first commit.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
+### `npm run build`
 
-In the end of this document, you will find guidelines on how to submit the exercise.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Instructions
-In this lab we will try to work with redux and understand how it helps in react. 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Kindly see the output:
-![Image description](https://i1.faceprep.in/ProGrad/redux-1.png)
-![Image description](https://i1.faceprep.in/ProGrad/redux-2.png)
-![Image description](https://i1.faceprep.in/ProGrad/redux-3.png)
-![Image description](https://i1.faceprep.in/ProGrad/redux-4.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To install redux
-```
-npm install redux react-redux 
-```
+### `npm run eject`
 
-### PROGRESSION 1 | FORM AND DISPLAY COMPONENT
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Please see the screenshot for your reference.
-![Image description](https://i1.faceprep.in/ProGrad/redux-1.png)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### PROGRESSION 2 |  STORE ACTION REDUCER
-In this progression, you should create a redux store to store the state. Then create the action for the particular event to happen and based on the action create the reducer.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### PROGRESSION 3 | GET N STORE
-In this progression, the data what you fetch in the form should be sent to redux store. Fetch the data from the store and display it back in `Display` Component. 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-**Do not use hooks or this.state**.
+## Learn More
 
-Please refer the output below:
-![Image description](https://i1.faceprep.in/ProGrad/redux-2.png)
-![Image description](https://i1.faceprep.in/ProGrad/redux-3.png)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### PROGRESSION 4 | DELETE 
-In this iteration provide an option to delete the note. 
-![Image description](https://i1.faceprep.in/ProGrad/redux-4.png)
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Submission
+### Analyzing the Bundle Size
 
-If you didn't add, commit and push the changes you made, this is the last call. :smile:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-please share your github links with your Mentors. Your Mentor's will check up your work and provide feedback. 
+### Making a Progressive Web App
 
-## Summary
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-If you managed to do it, good job! :trophy:
+### Advanced Configuration
 
-We are proud of you!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Happy Coding ProGrad ❤️!
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
